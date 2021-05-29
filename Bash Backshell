@@ -1,0 +1,10 @@
+Jika anda ingin mengkonfigurasi prompt shell, bash telah menyediakan beberapa backslash karakter diantaranya adalah:
+
+\a 	ASCII bell character (07)
+\d 	date dengan format "Weekday Month Date" (misalnya "Tue May 26")
+\e 	ASCII escape character (033)
+\H 	hostname (namahost)
+\n 	newline (karakter baru)
+\w 	Direktory aktif
+\t 	time dalam 24 jam dengan format HH:MM:SS
+dll 	man bash:-)

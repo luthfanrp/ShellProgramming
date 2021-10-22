@@ -2,24 +2,28 @@ untuk operasi matematika ada 3 cara yang dapat anda gunakan, dengan statement bu
 
 #mat1
 
-a=10
-b=5
+  a=10
+  
+  b=5
 #memakai let
-jumlah=$(($a+$b))
-kurang=$(($a-$b))
-kali=$(($a*$b))
+
+  jumlah=$(($a+$b))
+  kurang=$(($a-$b))
+  kali=$(($a*$b))
 
 #memakai expr
-bagi=`expr $a / $b`
+
+  bagi=`expr $a / $b`
 
 #memakai perintah subtitusi $((ekspresi))
-modul=$(($a%$b))  #sisa pembagian
 
-echo "$a+$b=$jumlah"
-echo "$a-$b=$kurang"
-echo "$a*$b=$kali"
-echo "$a/$b=$bagi"
-echo "$a%$b=$modul"
+  modul=$(($a%$b))  #sisa pembagian
+
+  echo "$a+$b=$jumlah"
+  echo "$a-$b=$kurang"
+  echo "$a*$b=$kali"
+  echo "$a/$b=$bagi"
+  echo "$a%$b=$modul"
 
 
 

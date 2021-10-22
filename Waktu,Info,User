@@ -2,9 +2,11 @@
 #myinfo
 
 #membersihkan tampilan layar
-clear           
+  
+  clear           
 
 #menampilkan informasi
-echo -n "Waktu system   :"; date
-echo -n "Anda           :"; whoami
-echo -n "Banyak pemakai :"; who | wc -l
+
+  echo -n "Waktu system   :"; date
+  echo -n "Anda           :"; whoami
+  echo -n "Banyak pemakai :"; who | wc -l
